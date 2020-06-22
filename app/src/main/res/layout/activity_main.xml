@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp">
+
+
+    <EditText
+        android:padding="20dp"
+        android:id="@+id/mainEditTextNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="Number 1" />
+
+    <EditText
+        android:padding="20dp"
+        android:id="@+id/mainEditTextNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:inputType="number"
+        android:hint="Number 2" />
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/mainTextViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Result" />
+
+    <Button
+        android:padding="20dp"
+        android:id="@+id/mainAddbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addation" />
+
+    <Button
+        android:padding="20dp"
+        android:id="@+id/mainSubbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Substract" />
+</LinearLayout>
